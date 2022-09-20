@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTTP status code 201
+
+note over browser:
+after getting a response from the POST request,
+the browser changes the old notes with the new ones
+without refreshing the page
+end note
